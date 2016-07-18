@@ -1,0 +1,22 @@
+{
+	"name": "flexismooth",
+	"description": "Dependency-free smooth scrolling library",
+	"main": "flexismooth.js",
+	"moduleType": ["globals", "amd"],
+	"authors": [
+		"Lukas Bestle <project-flexijs@lukasbestle.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"browser",
+		"smooth",
+		"scroll",
+		"scrolling"
+	],
+	"homepage": "https://git.lukasbestle.com/flexijs/flexismooth",
+	"ignore": [
+		".*",
+		"node_modules",
+		"test"
+	]
+}

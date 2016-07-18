@@ -1,0 +1,25 @@
+{
+	"name": "flexismooth",
+	"version": "1.0.0",
+	"description": "Dependency-free smooth scrolling library",
+	"keywords": ["browser", "smooth", "scroll", "scrolling"],
+	
+	"homepage": "https://git.lukasbestle.com/flexijs/flexismooth",
+	"bugs": "https://github.com/lukasbestle/flexismooth/issues",
+	"repository": "lukasbestle/flexismooth",
+	
+	"license": "MIT",
+	"author": "Lukas Bestle <project-flexijs@lukasbestle.com>",
+	
+	"scripts": {
+		"build": "uglifyjs flexismooth.js -cm --comments -o flexismooth.min.js",
+		"test": "tape test/*.js | tap-spec"
+	},
+	
+	"devDependencies": {
+		"tap-spec": "^4.1.1",
+		"tape": "^4.6.0",
+		"tape-catch": "^1.0.6",
+		"uglifyjs": "^2.4.10"
+	}
+}
